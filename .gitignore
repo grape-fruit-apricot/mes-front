@@ -1,0 +1,35 @@
+# Local configuration (all directories)
+*.yml
+*.yaml
+.env
+.env.*
+!.env.example
+
+# Build / tooling
+**/target/
+**/build/
+**/bin/
+**/out/
+*.class
+.gradle/
+.m2/
+
+# Frontend dependencies / generated files
+node_modules/
+dist/
+coverage/
+*.tsbuildinfo
+
+# IDE configuration
+.idea/
+.vscode/
+*.iml
+.classpath
+.project
+.settings/
+
+# Logs / operating system files
+*.log
+.DS_Store
+Thumbs.db
+
